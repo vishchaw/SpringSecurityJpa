@@ -69,7 +69,7 @@ public class MainController {
 	@PostMapping(path="/createroles")
 	public Roles createRole(@RequestBody Roles role)
 	{
-		System.out.println("creatig roles ...");
+		System.out.println("creatig roles in database ...");
 		return daoRole.createRoles(role);
 		
 	}
